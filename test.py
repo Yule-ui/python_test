@@ -132,6 +132,7 @@ def run_checks(optional_modules: list[str]) -> list[tuple[bool, str, str]]:
         check_dns(),
     ]
     results.extend(check_optional_imports(optional_modules))
+    print("hello world") 
     return results
 
 
@@ -178,7 +179,9 @@ def main() -> int:
     args = parse_args()
     results = run_checks(args.check_package)
     return print_report(results)
+    
 
 
 if __name__ == "__main__":
     raise SystemExit(main())
+    
