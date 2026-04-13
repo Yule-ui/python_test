@@ -134,6 +134,7 @@ def run_checks(optional_modules: list[str]) -> list[tuple[bool, str, str]]:
     results.extend(check_optional_imports(optional_modules))
     print("hello world") 
     print("你好，世界！")
+    print("こんにちは世界！")
     return results
 
 
