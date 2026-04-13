@@ -1,0 +1,9 @@
+{
+      
+    
+    // 字体大小
+    "editor.fontSize": 16,
+    
+    // 自动保存
+    "files.autoSave": "afterDelay",
+}
